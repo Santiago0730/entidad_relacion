@@ -25,4 +25,4 @@ Ref
 
 "La relacion entre el nombre y el perfil, 
 llave primaria que identificaria a la persona
-y el id que vendria siendo el perfil "
+y el id que vendria siendo el perfil, cada perfil se identifica por su username y el post se guarda con su username cómo llave foránea al buscar el post sabes a qué usuario pertenece sin necesidad de tener el id"
