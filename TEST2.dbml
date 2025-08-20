@@ -1,0 +1,28 @@
+Table Users {
+    id serial [pk]
+    username varchar [unique]
+    email varchar
+}
+
+Table post {
+    id serial [pk]
+    user_id int
+    title varchar
+    body text
+    created_at timestamp
+}
+
+Ref
+
+Table profile {
+    id serial [pk]
+    username varchar
+    description varchar
+    
+}
+
+Ref 
+
+"La relacion entre el nombre y el perfil, 
+llave primaria que identificaria a la persona
+y el id que vendria siendo el perfil "
